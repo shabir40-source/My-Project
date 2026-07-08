@@ -1,0 +1,15 @@
+apt install -y wget apt-transport-https software-properties-common
+
+wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb
+dpkg -i packages-microsoft-prod.deb
+
+apt install -y powershell
+
+pwsh
+
+
+lsb_release -a
+
+
+docker start -ai ubuntu-pwsh
+
